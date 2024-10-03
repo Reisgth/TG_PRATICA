@@ -51,10 +51,10 @@ def processar_e_salvar_pdfs_pasta(caminho_pasta, caminho_saida_json):
         json.dump(resultados, f, ensure_ascii=False, indent=4)
 
 # Caminho da pasta onde os PDFs estão armazenados
-caminho_pasta = r"C:\Users\BApR2\Desktop\SEAD\BASE_DE_DADOS\PESSOAL"  # Windows
+caminho_pasta = r"C:\Users\vagner reis\Desktop\TG_PRATICA\ARQUIVOS_PDF"  # Windows
 
 # Caminho para salvar o arquivo JSON com os tokens
-caminho_saida_json = r"C:\Users\BApR2\Desktop\SEAD\PRÉ_PROCESSAMENTO\ARQUIVOS_PRE_PROCESSADOS.json"
+caminho_saida_json = r"C:\Users\vagner reis\Desktop\TG_PRATICA\PRÉ_PROCESSAMENTO\ARQUIVOS_PRE_PROCESSADOS.json"
 
 # Processar todos os PDFs na pasta e salvar os tokens no arquivo JSON
 processar_e_salvar_pdfs_pasta(caminho_pasta, caminho_saida_json)
